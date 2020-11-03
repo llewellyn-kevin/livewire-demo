@@ -27,5 +27,6 @@ We look forward to seeing what you can build. Cheers! 🎉
 ### Setup Instructions
 1) `touch database/database.sqlite`
 2) `composer install`
-3) `php artisan migrate`
+3) `php artisan key:generate`
+4) `php artisan migrate`
 
