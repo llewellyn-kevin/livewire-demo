@@ -30,4 +30,6 @@ We look forward to seeing what you can build. Cheers! 🎉
 3) `composer install`
 4) `php artisan key:generate`
 5) `php artisan migrate`
+6) `npm run dev`
 
+With the use of Livewire, npm has been added to the mix. Should only need to compile once fortunately. 
