@@ -11,10 +11,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">
 
         <!-- Styles -->
-        {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
-        <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/ui@latest/dist/tailwind-ui.min.css">
-        @bukStyles(true)
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
         @livewireStyles
 
@@ -40,9 +37,6 @@
 
         @stack('modals')
 
-        <!-- Scripts -->
-        {{-- <script src="{{asset('js/app.js')}}"></script> --}}
         @livewireScripts
-        @bukScripts(true)
     </body>
 </html>
